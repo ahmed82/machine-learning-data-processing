@@ -65,3 +65,4 @@ lin_reg.predict([[6.5]])
 
 # Predicting a new result with Polynomial Regression
 lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
+#the above line move from line 47 replaceing the x matrix with the 6.5 level.
