@@ -23,6 +23,7 @@ y = sc_y.fit_transform(y.reshape(-1,1))
 
 # Fitting SVR to the dataset
 from sklearn.svm import SVR
+#create svr regression object from the above class
 regressor = SVR(kernel = 'rbf')
 regressor.fit(X, y)
 
